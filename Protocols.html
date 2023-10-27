@@ -10,28 +10,25 @@
 font-family: Arial, serif;
     }
 
-.navbar {
-  margin: 0;
-  overflow: hidden;
-  background-color: #f1c50e99;
-  position: fixed;
-  top: 0;
-  width: 100%;
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color: red; /* change to desired color */
 }
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
 }
-
-.navbar a:hover {
-  background: #db545a;
-  color: white;
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
 }
     .center {
   margin: 1%;
@@ -40,12 +37,6 @@ font-family: Arial, serif;
   background: white;
   width: 80%;
     }
-       .logo-image{
-    width: 50px;
-    height: 40px;
-    overflow: hidden;
-    margin-top: 0;
-}
       </style>
     </head>
   <div class="navbar">
